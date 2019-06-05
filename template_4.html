@@ -27,18 +27,28 @@
 
 <body>
     <div class="container">
-        <div class="row">
+        <div class="col-12 ">
             <div class="row heads col-12 col-sm-12 col-md-12">
                 <div class="col-12 col-sm-3 col-md-3 one">
                     <h1 style="font-family:forte;">Aditii</h1>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 two">
-                    <nav class="navbar navbar-light bg-color">
-                        <form class="form-inline">
-                            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success " type="submit">Search</button>
-                        </form>
-                    </nav>
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-12" style="padding-top:7px;">
+                                <div class="input-group">
+                                    <input class="form-control border-secondary " type="search">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-12 col-sm-3 col-md-3 three">
                     <i class="fab fa-bitbucket" style="font-size:40px;padding-top:10px;color:green;"></i>
@@ -47,53 +57,69 @@
             </div>
         </div>
     </div>
-    <div class="row menu">
-        <div class="container -fluid">
-            <div class="col-12 col-sm-12 col-md-12">
-                <nav class="navbar navbar-expand-sm menu-color navbar-dark" style="padding-top:20px;">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar" style="justify-content: end;">
-                        <div class="row col-12 col-sm-12 col-md-12">
-                            <ul>
-                                <li><a href="" style="color:white;" class="culr">HOME</a></li>
-                                <li><a href="" style="color:white;" class="culr">ABOUT</a></li>
-                                <li><a href="" style="color:white;" class="culr">CONTACT</a></li>
-                                <li><a href="" style="color:white;" class="culr">REACH US</a></li>
-                                <li><a href="" style="color:white;" class="culr">SERVICES</a></li>
-                                <li><a href="" style="color:white;" class="culr">WALLETS</a></li>
-                                <li><a href="" style="color:white;" class="culr">PRODUCTS</a></li>
-                                <li><a href="" style="color:white;" class="culr">STORE</a></li>
-                                <li><a href="" style="color:white;" class="culr">SALE</a></li>
-                                <li><a href="" style="color:white;" class="culr">CARE</a></li>
-                                <li><a href="" style="color:white;" class="culr">FAQ</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+    <div class="container-fluid">
+        <div class="row menu" style="display: flex;justify-content: space-around;">
+            <nav class="navbar navbar-expand-md navbar-light bg-menu " style="padding:0px;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu navbar-toggler-icon"></span>
+                </button>
+                <div class="menu collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item "><a class="nav-link" href="#" style="color:white;">HOME</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">ABOUT</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">CONTACT</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">REACH US</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">SERVICES</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">WALLETS</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">PRODUCTS</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">STORE</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">SALES</a>
+                        <li class="vl"></li>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color:white;">FAQ</a>
+                        <li class="vl"></li>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
-    <div class="row menuu">
-        <div class="container -fluid">
+    <div class="container-fluid" style="padding:0px;">
+        <div class="col-12 menuu">
             <div class="col-12 col-sm-12 col-md-12">
                 <div id="demo" class="carousel slide" data-ride="carousel">
-                    <ul class="carousel-indicators" style="padding-top:10px;">
+                    <ul class="carousel-indicators" style="">
                         <li data-target="#demo" data-slide-to="0" class="active"></li>
                         <li data-target="#demo" data-slide-to="1"></li>
                         <li data-target="#demo" data-slide-to="2"></li>
                     </ul>
 
-                    <div class="carousel-inner">
-                        <div class="row col-12 col-sm-12 col-md-12">
-                            <div class="col-12 col-sm-12 col-md-6 ">
+                    <div class="carousel-inner ">
+                        <div class="row col-12 col-sm-12 col-md-12 " style="padding:10px 10px;">
+                            <div class="col-12 col-sm-12 col-md-5 text-center">
                                 <div class="carousel-item active">
-                                    <img src="./images.jpg">
+                                    <img src="./tshirts1.jpg">
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-6 ">
+                            <div class="col-12 col-sm-12 col-md-4">
                                 <h3 style="margin-bottom:-.5rem;color:white;"><b>COWHIDE</b></h3>
                                 <h3 style="color:white;"><b>STANDARD CREW</b></h3>
                                 <p style="font-size:13px;color:white;"><b>This Men vintage tshirt design ideas 4 image
@@ -125,48 +151,67 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a> -->
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="row col-12 col-sm-12 col-md-12" style="margin-left:30px;">
-            <div class="col-4 six col-sm-6 col-md-1 four">
-                <a href=""><i class="fas fa-chevron-left" style="color:rgb(129, 127, 127);"></i></a>
-            </div>
-            <div class="row col-8 col-sm-6 col-md-3 five">
-                <img src="./shoe.jpeg" style="padding-top:50px;">
-                <div>
-                    <h6 style="padding-top:50px;"><b>BRANDED <br>SHOES</b></h6>
-                    <button type="button" class="btn btn-light" style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+    <div class="container-fluid">
+        <div class=" row">
+            <div class="row col-12 col-sm-6 col-md-4">
+                <div class="row col-12 col-sm-12 col-md-12">
+                    <div class="col-4 col-sm-4 col-md-4" style="align-items: center;display: flex;">
+                        <a href="">
+                            <i class="fas fa-chevron-left four" style="color:rgb(129, 127, 127);"></i>
+                        </a>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4" style="align-items: center;display: flex;">
+                        <span style="padding-left:10px;">
+                            <img src="./shoe.jpeg">
+                        </span>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4" style="align-items: center;display: flex;padding-left:20px;">
+                        <div class="row">
+                            <h6><b>BRANDED SHOES</b> </h6>
+                            <button type="button" class="btn btn-light"
+                                style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-            <div class="row col-5 col-sm-5 col-md-4 five" style="justify-content: center;">
-                <img src="./tshirts22.jpg" style="padding-top:50px;">
-                <div>
-                    <h6 style="padding-top:50px;"><b>BRANDED <br>TSHIRTS</b></h6>
-                    <button type="button" class="btn btn-light" style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+            <div class="row col-12 col-sm-6 col-md-4" style="align-content: center;">
+                <div class="row col-12 col-sm-12 col-md-12">
+                    <div class=" col-6 col-sm-6 col-md-6 text-center">
+                        <img src="./tshirts22.jpg">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6">
+                        <h6><b>BRANDED TSHIRTS</b></h6>
+                        <button type="button" class="btn btn-light"
+                            style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                    </div>
                 </div>
-
             </div>
-            <div class="row col-5 col-sm-5 col-md-3 " style="justify-content: center;">
-                <img src="./black.jpg" style="padding-top:50px;">
-                <div>
-                    <h6 style="padding-top:50px;"><b>BRANDED <br>PANTS</b></h6>
-                    <button type="button" class="btn btn-light" style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+            <div class="row col-12 col-sm-6 col-md-4">
+                <div class="row col-12 col-sm-12 col-md-12">
+                    <div class="col-4 col-sm-4 col-md-4" style="align-items: center;display: flex;">
+                        <span style="padding-left:10px;">
+                                <img src="./black.jpg">
+                        </span>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4" style="align-items: center;display: flex;padding-left:20px;">
+                        <div class="row">
+                            <h6><b>BRANDED SHIRT</b> </h6>
+                            <button type="button" class="btn btn-light"
+                                style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4" style="align-items: flex-end;display: flex;">
+                        <a href="">
+                            <i class="fas fa-chevron-right four" style="color:rgb(129, 127, 127);"></i>
+                        </a>
+                    </div>
                 </div>
-
             </div>
-            <div class="col-2 six col-sm-2 col-md-1 four">
-                <a href=""> <i class="fas fa-chevron-right" style="color:rgb(129, 127, 127);"></i></a>
-            </div>
+          
 
         </div>
     </div>
@@ -186,7 +231,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-center"><b>BRANDED SLIP</b></h5>
                             <P class="text-center"><b>$300 </b><button type="button" class="btn btn-light"
-                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button></P>
+                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                            </P>
 
                         </div>
                     </div>
@@ -199,7 +245,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-center"><b>BRANDED WALT</b></h5>
                             <P class="text-center"><b>$300 </b><button type="button" class="btn btn-light"
-                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button></P>
+                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                            </P>
 
                         </div>
                     </div>
@@ -212,7 +259,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-center"><b>BRANDED TEES</b></h5>
                             <P class="text-center"><b>$300 </b><button type="button" class="btn btn-light"
-                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button></P>
+                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                            </P>
 
                         </div>
                     </div>
@@ -225,7 +273,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-center"><b>BRANDED BAGS</b></h5>
                             <P class="text-center"><b>$300 </b><button type="button" class="btn btn-light"
-                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button></P>
+                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                            </P>
 
                         </div>
                     </div>
@@ -238,7 +287,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-center"><b>BRANDED SHRT</b></h5>
                             <P class="text-center"><b>$300 </b><button type="button" class="btn btn-light"
-                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button></P>
+                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                            </P>
                         </div>
                     </div>
                 </div>
@@ -250,7 +300,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-center"><b>BRAND WATCH</b></h5>
                             <P class="text-center"><b>$300 </b><button type="button" class="btn btn-light"
-                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button></P>
+                                    style="border:1px solid black; background-color:rgb(65, 153, 235);">SHOP</button>
+                            </P>
                         </div>
                     </div>
                 </div>
@@ -305,9 +356,12 @@
     </div>
     <div class="row menu">
         <div class="container -fluid">
-            <p style="color:white;padding-top:5px;justify-content: center;display: flex;">Copyright @ 2013 Css Author</p>
+            <p style="color:white;padding-top:5px;justify-content: center;display: flex;margin-bottom:5px;">
+                Copyright @
+                2013 Css Author</p>
         </div>
     </div>
+
 
 </body>
 

@@ -5,6 +5,7 @@
 .heads{
     margin-top:5px;
 }
+
 .menu{
     background-color:rgb(64, 160, 250);
 }
@@ -21,10 +22,9 @@ ul li{
 }
 
 .culr{
-    border-right:1px solid white;
-    padding-right:10px;
-    padding-left:10px;
+    color:white;
 }
+    
 .one{
     display:flex;
 }
@@ -42,6 +42,11 @@ ul li{
 .five{
     border-right:1px solid black;
 }
+.vl {
+    border-left: 1px solid rgb(223, 226, 223);
+    height: auto;
+    color:white;
+  }
 @media screen and  (max-width: 576px) {
     .one{
         justify-content: center;
@@ -63,6 +68,8 @@ ul li{
      padding-top:60px;
  }
 }
+
+
 @media screen and  (min-width: 576px) {
     .one{
         justify-content: start;
@@ -79,10 +86,7 @@ ul li{
 
         font-size:100px;
     }
-    .culr{
-        border-right:1px solid white;
-        padding-right:5px;
-    }
+   
     .five{
         border-right:1px solid black;
     }
