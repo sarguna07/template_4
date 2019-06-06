@@ -47,6 +47,9 @@ ul li{
     height: auto;
     color:white;
   }
+  .seven{
+    padding-left:90px;
+}
 @media screen and  (max-width: 576px) {
     .one{
         justify-content: center;
@@ -89,5 +92,8 @@ ul li{
    
     .five{
         border-right:1px solid black;
+    }
+    .seven{
+        padding-left:60px;
     }
 }
