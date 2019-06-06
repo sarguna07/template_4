@@ -16,7 +16,38 @@ ul li{
     list-style-type: none;
     display: inline;
     color:white;
+    padding: 0 8.5px;
 }
+.arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color:gray;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(135deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+  .arrow1 {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color:gray;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(-45deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  .arrow1:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
 .bg-color {
     background-color: white;
 }
@@ -44,7 +75,8 @@ ul li{
 }
 .vl {
     border-left: 1px solid rgb(223, 226, 223);
-    height: auto;
+    height: 20px;
+    /* padding-top:5px; */
     color:white;
   }
   .seven{
