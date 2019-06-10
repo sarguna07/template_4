@@ -16,7 +16,11 @@ ul li{
     list-style-type: none;
     display: inline;
     color:white;
-    padding: 0 8.5px;
+   
+}
+.abcd{
+    padding-left:15px;
+    padding-right:15px;
 }
 .arrow {
     box-sizing: border-box;
@@ -76,7 +80,6 @@ ul li{
 .vl {
     border-left: 1px solid rgb(223, 226, 223);
     height: 20px;
-    /* padding-top:5px; */
     color:white;
   }
   .seven{
